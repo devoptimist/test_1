@@ -9,6 +9,7 @@ template '/var/tmp/test_1_details.sh' do
   variables(
     name: node['test_1']['name'],
     channel: node['test_1']['channel'],
-    install_version: node['test_1']['install_version']
+    install_version: node['test_1']['install_version'],
+    automate_name: node['test_1']['automate_name']
   )
 end
